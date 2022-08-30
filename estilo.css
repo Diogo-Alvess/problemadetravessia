@@ -1,0 +1,116 @@
+.titulo{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 35px;
+    width: 800px;
+	text-align: center;
+}
+
+.regras{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+}
+
+body {
+    background-color: #50cbe7;
+}
+
+.margem{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.jogo{
+	position: absolute;
+	width: 800px;
+	height: 450px;
+	border: solid 10px rgb(129, 39, 39);
+	background-image: url("Imagens/rioemargens.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#fazendeiro{
+	position: absolute;
+	width: 150px;
+	left: 10px;
+	top: 160px;
+	 -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+
+#carneiro{
+	position: absolute;
+	width: 70px;
+	left: 70px;
+	top: 300px;
+	 -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+
+}
+
+#lobo{
+	position: absolute;
+	width: 100px;
+	left: 50px;
+	top: 350px;
+	 -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+
+#barco{
+	position: absolute;
+	width: 200px;
+	left: 200px;
+	top: 200px;
+	 -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+
+#alface{
+	position: absolute;
+	width: 60px;
+	left: 140px;
+	top: 150px;
+	 -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+
+.movimentaEsquerda{
+	left: 400px;
+}
+
+button:focus, button:hover {
+	border-color: #000066;
+  	box-shadow: 5px 0px 9px #9c97fe;
+  	background-color: #b6eaca;
+	color: black;
+  	font-weight: bold;
+}
+
+.reiniciar {
+	margin: 7px;
+	background-color: #c4a5ff;
+	height: 35px;
+	width: 80px;
+	font-weight: bold;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid;
+	color: black;
+}

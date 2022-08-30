@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+	<script src="index.js"></script>
+    <title>PROBLEMA DA TRAVESSIA</title>
+</head>
+<body>
+    <div class="margem">
+		<div>
+			<h1 class="titulo">PROBLEMA DA TRAVESSIA (O fazendeiro, o lobo, o carneiro e a alface)</h1>
+            <hr color="blue">
+            <h3 class="regras">REGRAS:</h3>
+            <ul class="regras">
+                <li>O fazendeiro deve entrar primeiro no barco, e somete ele consegue pilotar.</li>
+                <li>O carneiro come a alface, e o lobo come o carneiro se ficarem sozinhos em uma das margens.</li>
+                <li>Não é possível levar mais de um personagem no barco.</li>
+                <li>Você vence quando todos os personagens estiverem na margem da direita.</li>
+            </ul>
+            <hr color="blue">
+		</div>
+        <button class="reiniciar" onclick="window.location.reload()">REINICIAR</button>
+      
+		<div class="jogo">
+			<img src="Imagens/fazendeiro.png" id="fazendeiro" onclick="clicouObjeto('fazendeiro')">
+			<img src="Imagens/carneiro.png" id="carneiro" onclick="clicouObjeto('carneiro')">
+			<img src="Imagens/lobo.png" id="lobo" onclick="clicouObjeto('lobo')">
+			<img src="Imagens/alface.png" id="alface" onclick="clicouObjeto('alface')">
+			<img src="Imagens/barco.png" id="barco" onclick="clicouObjeto('barco')">
+		</div>
+	</div>
+</body>
+</html>
